@@ -9,7 +9,8 @@ const Contact = () => {
     message: "",
   });
 
-  const handleChange = ({ name, value }) => {
+  const handleChange = (e) => {
+    const { name, value } = e.target;
     setForm({ ...form, [name]: value });
   };
   const handleSubmit = async (e) => {
@@ -18,7 +19,7 @@ const Contact = () => {
     try {
       await emailjs.send(
         "service_ygrny0h",
-        "template_ja8zbtr",
+        "template_j2crqqm",
         {
           from_name: form.name,
           to_name: "Shuvam",
