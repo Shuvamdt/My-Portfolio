@@ -7,23 +7,33 @@ const Footer = () => {
         <p></p>
       </div>
       <div className="flex gap-3">
-        <div className="social-icon">
-          <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
-        </div>
-        <div className="social-icon">
-          <img
-            src="/assets/twitter.svg"
-            alt="twitter"
-            className="w-1/2 h-1/2"
-          />
-        </div>
-        <div className="social-icon">
-          <img
-            src="/assets/instagram.svg"
-            alt="instagram"
-            className="w-1/2 h-1/2"
-          />
-        </div>
+        <a href="https://github.com/Shuvamdt">
+          <div className="social-icon">
+            <img
+              src="/assets/github.svg"
+              alt="github"
+              className="w-1/2 h-1/2"
+            />
+          </div>
+        </a>
+        <a href="https://x.com/ShuvamDutta123?t=YOQSoMipkVU14SdSt3pafw&s=08">
+          <div className="social-icon">
+            <img
+              src="/assets/twitter.svg"
+              alt="twitter"
+              className="w-1/2 h-1/2"
+            />
+          </div>
+        </a>
+        <a href="https://www.instagram.com/shuvamdutta963/">
+          <div className="social-icon">
+            <img
+              src="/assets/instagram.svg"
+              alt="instagram"
+              className="w-1/2 h-1/2"
+            />
+          </div>
+        </a>
       </div>
       <p className="text-white-500">©2025 Shuvam All rights reserved</p>
     </section>
