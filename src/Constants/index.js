@@ -53,7 +53,7 @@ export const navLinks = [
 
 export const myProjects = [
   {
-    title: "WritograBasic CRUD Application",
+    title: "Writography- Basic CRUD Application",
     desc: "Writography is a basic blog application with CRUD features.",
     subdesc:
       "It has local user authentication using passport.js, it is connected with the PostgreSQL database. It has inbuilt express API server and frontend part is build with React.js",
