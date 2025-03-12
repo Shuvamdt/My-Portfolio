@@ -10,14 +10,16 @@ export function HackerRoom(props) {
   const { nodes, materials } = useGLTF("/models/hacker-room.glb");
 
   const monitortxt = useTexture("textures/desk/monitor.png");
-  const screenTxt = useTexture("textures/desk/screen.png");
+  const screenTxt = useTexture("textures/desk/screen.jpg");
 
   return (
     <group {...props} dispose={null}>
       <mesh
         geometry={nodes.screen_screens_0.geometry}
         material={materials.screens}
-      />
+      >
+        <meshMatcapMaterial map={screenTxt} />
+      </mesh>
       <mesh
         geometry={nodes.screen_glass_glass_0.geometry}
         material={materials.glass}
@@ -55,7 +57,9 @@ export function HackerRoom(props) {
       <mesh
         geometry={nodes.table_table_mat_0_8.geometry}
         material={materials.tv_mat}
-      />
+      >
+        <meshMatcapMaterial map={monitortxt} />
+      </mesh>
       <mesh
         geometry={nodes.table_table_mat_0_9.geometry}
         material={materials.cables_mat}

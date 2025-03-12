@@ -59,7 +59,7 @@ export const myProjects = [
       "It has local user authentication using passport.js, it is connected with the PostgreSQL database. It has inbuilt express API server and frontend part is build with React.js",
 
     href: "https://writography-v-2-nmc8.vercel.app/",
-    texture: "",
+    texture: "/textures/project/project1.mp4",
     logo: "/assets/logo.svg",
     logoStyle: {
       backgroundColor: "#2A1816",
@@ -96,7 +96,7 @@ export const myProjects = [
     subdesc:
       "This is a website where you can manage your medical store with ease. Here you can upload medicine datas make bills for customers, If any medicine in the store gets expired or out of stock it will show up on the out of stock page. You cannot bill any out of stock or expired medicine.",
     href: "https://medico-z34a.onrender.com/",
-    texture: "",
+    texture: "/textures/project/project2.mp4",
     logo: "/assets/Medico.png",
     logoStyle: {
       backgroundColor: "#13202F",

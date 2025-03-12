@@ -31,7 +31,7 @@ const About = () => {
         <div className="col-span-1 xl:row-span-3">
           <div className="grid-container">
             <img
-              src="/assets/Pern.jpeg"
+              src="/assets/grid2.png"
               alt="grid-2"
               className="w-full sm:w-[276px] h-fit object-contain"
             />
