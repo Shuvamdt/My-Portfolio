@@ -58,11 +58,11 @@ const Projects = () => {
             </div>
             <a
               href={currentProject.href}
-              className="flex items-center gap-2 cursor-pointer text-white-600"
+              className="flex items-center gap-2 cursor-pointer text-gray-600"
               target="_blank"
-              rel="noreferrer"
+              rel="noreferrer noopener"
             >
-              <p>Check live site</p>
+              Check live site
               <img src="/assets/arrow-up.png" alt="arrow" className="w-3 h-3" />
             </a>
           </div>
