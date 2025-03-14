@@ -17,6 +17,7 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
+      console.log(form.email);
       await emailjs.send(
         "service_ygrny0h",
         "template_j2crqqm",
@@ -24,7 +25,7 @@ const Contact = () => {
           from_name: form.name,
           to_name: "Shuvam",
           from_email: form.email,
-          to_email: "sujitd431@gmail.com",
+          to_email: "shuvamdt1230@gmail.com",
           message: form.message,
         },
         "59z0DYF7zS_gRro4D"
